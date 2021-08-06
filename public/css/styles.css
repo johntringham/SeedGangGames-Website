@@ -1,0 +1,25 @@
+body {
+    background-color: #373636;
+    font-family: "Dosis",Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    color: #f7f7f7;
+    text-align: justify;
+    font-size: 440pt;
+    margin: 0px;
+    line-height: 0.76;
+}
+
+.centerdiv {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a 
+{
+    color:#f7f7f7;
+}
