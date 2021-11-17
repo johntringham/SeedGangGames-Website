@@ -9,9 +9,9 @@ body {
 h1 {
     font-family: 'Staatliches', monospace, Arial, sans-serif;
     color: #f7f7f7;
-    text-align: justify;
-    font-size: 440pt;
-    margin: 0px;
+    text-align: center;
+    font-size: 140pt;
+    margin: 50px;
     line-height: 0.76;
     text-transform: uppercase;
 }
@@ -42,12 +42,19 @@ h2 img {
     display: inline-block;
 }
 
+h1 img {
+    margin-bottom: -16px;
+    width:100px;
+    display: inline-block;
+}
+
 .centerdiv {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 18pt;
     margin: 70px;
     line-height: 1.6;
+    font-weight: bold;
 }
 
 .centercontainer {
