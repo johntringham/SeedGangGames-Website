@@ -50,12 +50,17 @@ h2 img {
     line-height: 1.6;
 }
 
+.centercontainer {
+    margin: min(70px, 10%);
+}
+
 .propertext {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 11pt;
-    margin: min(70px, 10%);
     line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 a 
