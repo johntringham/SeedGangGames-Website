@@ -1,18 +1,45 @@
 body {
     background-color: #373636;
-    font-family: "Dosis",Helvetica,Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     text-align: center;
     color: #f7f7f7;
     position: absolute;
 }
 
 h1 {
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', monospace, Arial, sans-serif;
     color: #f7f7f7;
     text-align: justify;
     font-size: 440pt;
     margin: 0px;
     line-height: 0.76;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Staatliches', monospace, Arial, sans-serif;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 40pt;
+    margin: 50px;
+    line-height: 0.76;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Staatliches', monospace, Arial, sans-serif;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 30pt;
+    margin: 50px;
+    line-height: 0.76;
+    text-transform: uppercase;
+}
+
+h2 img {
+    margin-bottom: -16px;
+    width:40px;
+    display: inline-block;
 }
 
 .centerdiv {
@@ -20,6 +47,14 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18pt;
     margin: 70px;
+    line-height: 1.6;
+}
+
+.propertext {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    margin: min(70px, 10%);
     line-height: 1.6;
 }
 
