@@ -83,3 +83,24 @@ a:hover
     color:#373636;
     background-color: #f7f7f7;
 }
+
+blockquote {
+    /* font-style: italic; */
+    background-color: aliceblue;
+    color: #111;
+    padding: 2px 20px;
+}
+
+blockquote a 
+{
+    color:#373636;
+    font-weight: bold;
+    padding: 4px;
+    margin: -4px;
+}
+
+blockquote a:hover 
+{
+    color:#000;
+    background-color: #f7f7f7;
+}

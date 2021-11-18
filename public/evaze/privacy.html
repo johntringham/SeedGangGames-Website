@@ -12,10 +12,15 @@
   <!-- <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <link rel="stylesheet" href="../css/styles.css" type="text/css">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap" rel="stylesheet">
 </head> 
 
@@ -27,31 +32,22 @@
 
     <div class="centercontainer">
     <div class="propertext">
-        
-<p>Evaze uses Admob, a third party service by Google. It collects the following information from users:</p>
-<ul>
-<li>IP address, which may be used to estimate the general location of a device.</li>
-<li>Non-user related crash logs, which may be used to diagnose problems and improve the SDK. Diagnostic information may also be used for advertising and analytics purposes.</li>
-<li>User-associated performance data such as app launch time, hang rate, or energy usage, which may be used to evaluate user behavior, understand the effectiveness of existing product features, and plan new features. Performance data may also be used for displaying ads, including sharing with other entities that display ads.</li>
-<li>A Device ID such as the device's advertising identifier or other app-bounded device identifiers, which may be used for the purpose of third-party advertising and analytics.</li>
-<li>Advertising data, such as advertisements the user has seen, may be used to power analytics and advertising features.</li>
-<li>Other user product interactions like app launch taps, and interaction information, like video views, may be used to improve advertising performance.</li>
-</ul>
-<p>It uses the information to:</p>
-<ul>
-<li>Deliver their services, including serving adverts that appear in the app.</li>
-<li>Maintain and improve them</li>
-<li>Develop new services</li>
-<li>Measure the effectiveness of advertising</li>
-<li>Protect against fraud and abuse</li>
-<li>Personalize content and ads you see on Google and on their partners’ sites and apps</li>
-</ul>
-<p>In order to opt out of personalized advertising, click here: <a href="https://adssettings.google.com/authenticated">https://adssettings.google.com/authenticated</a></p>
-<p>Admob's privacy policy is available here: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
-<p>To contact Seed Gang Games, please email <b>john@tringham.co.uk</b></p>
+    </div>
+    </div>
 
-    </div>
-    </div>
+
+    <script lang="javascript">
+        var converter = new showdown.Converter();
+        var text = "";
+        var textDiv = $('.propertext');
+        
+        $.get('privacypolicy.md', 
+        function (t) {
+            text = t;
+            html = converter.makeHtml(text);
+            textDiv.html(html);
+        });
+    </script>
 
     <div class="centerdiv"><a href="http://seedganggames.com/">return to homepage</a></div>
 </body>
