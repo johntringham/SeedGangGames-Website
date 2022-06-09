@@ -63,14 +63,14 @@ Google's privacy policy is available here: <https://policies.google.com/privacy>
 In order to opt out of personalized advertising through your Google Account, and to review what data Admob/Google have collected (including updating your preferences and to request deletion of information), please visit <https://adssettings.google.com/authenticated>.
 
 More information about Admob, Google and Firebase's policies can be found here:
-<https://support.google.com/policies/answer/9581826>
-<https://support.google.com/googleplay/?hl=en#topic=3364260>
-<https://firebase.google.com/support>
-<https://support.google.com/admob/answer/6128543?hl=en>
-<https://support.google.com/policies/troubleshooter/2990837?hl=en>
-<https://play.google.com/about/play-terms.html>
-<https://www.google.com/intl/en/policies/privacy/>
-<https://firebase.google.com/support/privacy>
+- <https://support.google.com/policies/answer/9581826>
+- <https://support.google.com/googleplay/?hl=en#topic=3364260>
+- <https://firebase.google.com/support>
+- <https://support.google.com/admob/answer/6128543?hl=en>
+- <https://support.google.com/policies/troubleshooter/2990837?hl=en>
+- <https://play.google.com/about/play-terms.html>
+- <https://www.google.com/intl/en/policies/privacy/>
+- <https://firebase.google.com/support/privacy>
 
 We will periodically update this privacy policy to reflect changes in our information practices. Please check back regularly, as your continued use of Evaze indicate your acceptance of any changes to this policy.
 
